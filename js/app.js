@@ -1,6 +1,9 @@
 angular.module('bandApp', ['ngRoute', 'RouteControllers', 'UserService', 'angular-storage', 'bandService', 'NavbarDirective']);
 
-angular.module('bandApp').config(function($locationProvider, $routeProvider) {
+
+angular.module('bandApp').config(function($locationProvider, $routeProvider, $interpolateProvider) {
+	$interpolateProvider.startSymbol('[[');
+  	$interpolateProvider.endSymbol(']]');
 	$locationProvider.html5Mode(true);
 	$routeProvider.when('/', {
 		templateUrl: 'templates/home.html',
