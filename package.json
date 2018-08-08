@@ -1,0 +1,22 @@
+{
+  "name": "arcticmonkeys",
+  "version": "1.0.0",
+  "description": "band website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RenanZabeu/arcticmonkeys.git"
+  },
+  "keywords": [
+    "arcticmonkeys"
+  ],
+  "author": "Renan Zabeu Pacheco Dias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RenanZabeu/arcticmonkeys/issues"
+  },
+  "homepage": "https://github.com/RenanZabeu/arcticmonkeys#readme"
+}

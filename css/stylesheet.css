@@ -1,0 +1,381 @@
+html, body{
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+}
+/*NAVBAR*/
+.bg-dark{
+    background-color: #000000!important;
+}
+
+ .navbar-dark .navbar-nav .nav-link{
+     color: white;
+ }
+/* CAROUSEL */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+      margin-top: 60px;
+  }
+
+/* PARALLAX */
+ .subSection{
+     height: 10px;
+     width: 100%;
+     background-image: url("../imgs/singlepage/a.jpg");
+ }
+
+ .row{
+     margin-right: 0;
+ }
+ /*Sections*/
+.container-fluid{
+    width: 100%;
+    height: 100%;
+}
+
+ .sect{
+     height: 900px;
+     width: 100%;
+     background-repeat:no-repeat;
+     background-size:contain;
+     background-attachment: fixed;
+ }
+
+.sectOne{
+    background-image: url("../imgs/singlepage/photos.jpg"); /*photos*/
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .sectTwo{
+    background-image: url("../imgs/singlepage/ontheroad.jpg");
+    width: 100%;
+    background-size: cover;
+  }
+
+  .sectThree{
+    background-image: url("../imgs/singlepage/media.jpg");
+    width: 100%;
+    background-size: cover;
+  }
+
+  .sectFour{
+     background-image: url("../imgs/contact/monkey.jpg");
+     width: 100%;
+     background-size: cover;
+  }
+
+ #ribbon{
+   background-color: yellow;
+   color: black;
+   opacity: 0.9;
+   margin-top: 70px;
+   height: 50px;
+   width: 250px;
+   text-align: center;
+   border-radius: 0 50px 0 0px;
+ }
+
+/*Band Members*/
+
+.band{
+    margin-top: 150px;
+}
+.card{
+    padding: 10px;
+    background: linear-gradient(yellow, black);
+    margin-left: 50px;
+}
+.card-body{
+
+    padding: 5px;
+}
+.bandname{
+    margin-bottom: -2px;
+    text-align: center;
+}
+
+strong{
+    color: white;
+}
+p{
+    color: white;
+}
+
+#vocalist{
+    background-color: black;
+    text-align: center;
+}
+
+#drum{
+    background-color: black;
+    text-align: center;
+}
+
+#guitarist{
+    background-color: black;
+    text-align: center;
+}
+
+#bass{
+    background-color: black;
+    text-align: center;
+}
+
+/*Tour*/
+
+.card-body{
+    background-color: black;
+    text-align: center;
+}
+
+.tourButton{
+   background-color: yellow;
+    color:black;
+  }
+
+.modal-content{
+    background-color: #000000;
+}
+
+.modaltickets{
+    color: #ffffff;
+}
+/*Media*/
+
+/*Contact*/
+
+.contact{
+    margin-top: 150px;
+    margin-left: 150px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.boxcontact{;
+   color: #ffffff;
+   text-align: center;
+   font-size: 22px;
+}
+
+.contactinfo{
+    text-align: center;
+   font-size: 22px;
+}
+textarea{
+    margin-left: 13px;
+}
+
+    .bg-danger{
+      margin: 0;
+      padding: 12px;
+      background: red;
+      color: white;
+      border-radius: 30px;
+      margin-bottom: 10px;
+    }
+/*===================================================Interaction=========================================================== */
+
+                   .navbar-dark .navbar-nav .nav-link:hover{
+                      color:#000000;
+                      background-color: #ffeb3b;
+                      border-radius: 30px 10px 25px 10px;
+                   }
+
+                   .dropdown-menu{
+                    background-color: #000000;
+                   }
+
+
+                    #myCollapsingList a:hover{
+                      color:#000000;
+                      background-color: #ffeb3b;
+                    }
+
+                 li.indicate{
+                  background-color: yellow;
+                 }
+
+.navbar-brand:hover{
+    background-color: #ffeb3b;
+    border-radius: 30px 10px 25px 10px;
+}
+
+#toTop{
+    margin-bottom: 20px;
+}
+/*======================================Footer===============================================*/
+                footer{
+                          padding-top: 5px;
+                          background-color: #000000;
+                          text-align: center;
+
+                }
+                .footer{
+                  height: 100px;
+                }
+/*====================================Icons================================================= */
+                .fa {
+                    padding: 10px;
+                    font-size: 20px;
+                    text-align: center;
+                    text-decoration: none;
+
+                }
+
+                /* Add a hover effect if you want */
+                .fa:hover {
+                    opacity: 0.7;
+                    color: #ffffff;
+                }
+/*===================================Facebook================================================ */
+                  .fa-facebook {
+                      background: #3B5998;
+                      color: #ffffff;
+                      border-radius: 20px;
+
+                  }
+
+/*=================================Twitter=================================================== */
+                  .fa-twitter {
+                      background: #55ACEE;
+                      color: #ffffff;
+                      border-radius: 20px;
+                  }
+/*=================================Instagram=================================================== */
+                  .fa-instagram{
+                        background:linear-gradient( #400080, transparent),
+                          linear-gradient(200deg, #d047d1, #ff0000,    #ffff00);
+                          color: #ffffff;
+                          border-radius: 20px;
+                          font-size: 22px;
+
+                        }
+
+                        .fa-youtube{
+                          background: #cc181e;
+                          color: #ffffff;
+                          border-radius: 20px;
+                        }
+
+/* Register / login/ logout*/
+.contentbox{
+    background-color: #ef5734;
+    background-image: linear-gradient(315deg, #ffcc2f 0%, #ef5734 74%);
+    margin-left: 250px;
+    padding: 100px;
+
+}
+
+.registerlogin{
+    margin-top: 200px;
+}
+
+
+.logout{
+    width: auto;
+    height: 200px;
+    text-align: center;
+    padding: 50px;
+    background-color: #ef5734;
+    background-image: linear-gradient(315deg, #ef5734 0%, #ffcc2f 74%);
+}
+
+
+/*Media fixes for parallax*/
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+    .sect {
+        height: auto;
+    }
+    .band{
+        margin-top: auto;
+    }
+     .contentbox{
+    background-color: #ef5734;
+    background-image: linear-gradient(315deg, #ef5734 0%, #ffcc2f 74%);
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 100px
+    }
+
+
+}
+
+ @media (min-width: 768px) and (max-width: 991px)
+ {
+    .sect {
+            height: auto;
+        }
+     .band{
+        margin-top: auto;
+    }
+    .contentbox{
+        background-color: #ef5734;
+        background-image: linear-gradient(315deg, #ef5734 0%, #ffcc2f 74%);
+        margin-top: 20px;
+        margin-left: 20px;
+        padding: 100px
+    }
+ }
+
+@media (max-width: 767px)
+{
+    .sect {
+        height: auto;
+    }
+    .band{
+        margin-top: auto;
+    }
+    .navbar-dark .navbar-nav .nav-link{
+        text-align: center;
+    }
+
+    .contentbox{
+    background-color: #ef5734;
+    background-image: linear-gradient(315deg, #ef5734 0%, #ffcc2f 74%);
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 100px
+    }
+     .caption{
+         display: none;
+     }
+}
+
+@media (max-width: 480px) {
+    .sect {
+        height: auto;
+    }
+    .band{
+        margin-top: auto;
+    }
+    .navbar-dark .navbar-nav .nav-link{
+        text-align: center;
+    }
+    .contentbox{
+    background-color: #ef5734;
+    background-image: linear-gradient(315deg, #ef5734 0%, #ffcc2f 74%);
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 100px
+    }
+
+     .caption{
+         display: none;
+     }
+}
+
+
+/*=====================================JavaScript====================================================*/
+/*adds colour yellow*/
+.makeYellow{
+  background: linear-gradient(black, yellow);
+  color: #000000;
+}
+.turnBlack{
+  background-color: #000000;
+  color: white;
+}

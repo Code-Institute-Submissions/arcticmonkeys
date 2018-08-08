@@ -1,0 +1,26 @@
+{
+  "name": "arcticmonkeys",
+  "description": "band website",
+  "main": "index.js",
+  "authors": [
+    "Renan Zabeu Pacheco Dias"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "arcticmonkeys"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "angular": "^1.7.3",
+    "angular-route": "^1.7.3",
+    "a0-angular-storage": "^0.0.15"
+  }
+}
